@@ -25,6 +25,7 @@ Si aún no has clonado el repositorio, usa el siguiente comando:
 ```sh
 git clone https://github.com/a-alfaro19/tarea1Datos.git
 cd tarea1Datos
+```
 
 ## Construcción
 
@@ -32,20 +33,24 @@ cd tarea1Datos
 ```sh
 mkdir build
 cd build
+```
 
 2. **Configura el proyecto con CMake**:
 ```sh
 cmake ..
+```
 
 3. **Construye el proyecto**:
 ```sh
 make
+```
 
 ## Ejecución
 
 Para ejecutar el programa generator, usa el siguiente comando:
 ```sh
 ./generator --size <SIZE> --output <OUTPUT FILE PATH>
+```
 
 Donde:
 - <SIZE> es el tamaño del archivo binario en términos de número de enteros.
@@ -54,6 +59,7 @@ Donde:
 Para ejecutar el programa sorter, usa el siguiente comando:
 ```sh
 ./sorter --input <INPUT FILE PATH> --output <OUTPUT FILE PATH> --alg <ALGORITHM>
+```
 
 Donde:
 - <INPUT FILE PATH> es la ruta del archivo binario de entrada que deseas ordenar.
